@@ -1,6 +1,6 @@
 const nodeMailer = require('nodemailer')
 
-function sendEmailFromQQ(subject, html,sendEmail) {
+function sendEmailFromQQ(subject, html,sendEmail=true) {
     if (!sendEmail) return
     if (!process.env.EMAIL_USER || !process.env.EMAIL_PASS) {
         console.log('邮箱账户或密码为空')
