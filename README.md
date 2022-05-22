@@ -1,6 +1,6 @@
 # 掘金签到
 入口文件：`lib/index.js`
-## 主目录.env配置
+## 主目录.jue_jin配置
 
 ````txt
 EMAIL_USER=11561561@163.com
